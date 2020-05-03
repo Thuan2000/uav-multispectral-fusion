@@ -1,4 +1,4 @@
-from utils.label import LabelToolParser
+from utils.mask_generator import MaskGenerator
 
 
 import cv2
@@ -6,5 +6,5 @@ import configurations
 
 if __name__ == "__main__":
 
-    toolParser = LabelToolParser()
-    toolParser.generate_masks()
+    maskGen = MaskGenerator()
+    maskGen.generate_masks()
